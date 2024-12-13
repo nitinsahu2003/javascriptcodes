@@ -22,7 +22,7 @@ function createCard(title, cName, views, monthsOld, duration, thumbnail){
     document.querySelector(".container").innerHTML += html     
 }
 
-createCard("Introduction to Back end | Sigma Web Dev video #2", "CodeWithHarry", 73000000, 7, "20:04", "1.jpg")
-createCard("Introduction to Node Js | Sigma Web Dev video #3", "CodeWithHarry", 6500000, 7, "22:33", "1.jpg")
-createCard("Introduction to PHP | Sigma Web Dev video #4", "CodeWithHarry", 69, 7, "37:12", "1.jpg")
-createCard("Introduction to MySQL | Sigma Web Dev video #5", "CodeWithHarry", 100000, 7, "30:02", "1.jpg")
+createCard("Introduction to Back end | Sigma Web Dev video #2", "CodeWithHarry", 73000000, 7, "20:04", "https://i.ytimg.com/vi/J5By-Q4ZhZs/hqdefault.jpg")
+createCard("Introduction to Node Js | Sigma Web Dev video #3", "CodeWithHarry", 6500000, 7, "22:33", "https://i.ytimg.com/vi/J5By-Q4ZhZs/hqdefault.jpg")
+createCard("Introduction to PHP | Sigma Web Dev video #4", "CodeWithHarry", 69, 7, "37:12", "https://i.ytimg.com/vi/J5By-Q4ZhZs/hqdefault.jpg")
+createCard("Introduction to MySQL | Sigma Web Dev video #5", "CodeWithHarry", 100000, 7, "30:02", "https://i.ytimg.com/vi/J5By-Q4ZhZs/hqdefault.jpg")
