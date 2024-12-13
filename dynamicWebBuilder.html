@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>      
+      .card {
+        display: flex;
+        border: 2px solid black;
+        width: 975px;
+        /* justify-content: center; */
+        align-items: center;
+        margin: 5px;
+      }
+      .text h1,
+      p {
+        padding: 2px;
+        margin-left: 10px;
+      }
+      .image{
+        position: relative;
+      }
+      .image img {
+        height: 100px;
+        width: 150px;
+        padding-left: 10px;
+      }
+      .capsule {
+        position: absolute;
+        left: 123px;
+        z-index: 10;
+        top: 82px;
+        background: rgb(26, 26, 26);
+        opacity: 0.78;
+        color: white;
+        border-radius: 4px;
+        height: 18px;
+        width: 38px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="image">
+          <img src="1.jpg" alt="" />
+          <div class="capsule">31:06</div>
+        </div>
+        <div class="text">
+          <h1>Introduction to Front end | Sigma Web Dev video #1</h1>
+          <p>CodeWithHarry . 727K views . 2 months ago</p>
+        </div>
+      </div>
+    </div>
+    <script src="dyanmicWebBuilder.js"></script>
+  </body>
+</html>
