@@ -14,6 +14,7 @@
   </head>
   <body>
     <script>
+      //function created for adding text to the terminal dynamically 
       const addItem = async (item) => {
         await randomDelay();
         let div = document.createElement("div");
@@ -21,6 +22,7 @@
         document.body.append(div);
       };
 
+      // delay function created for the text part
       const randomDelay = () => {
         return new Promise((resolve, reject) => {
           timeout = 1 + 6 * Math.random();
@@ -29,8 +31,10 @@
           }, timeout * 1000);
         });
       };
-
+    
+      // main function created
       async function main() {
+        // this is for last 3 dots
         let t = setInterval(() => {
             let last = document.body.lastElementChild
 
@@ -41,6 +45,7 @@
                 last.innerHTML += "."
             }
         }, 500);
+        // this is for text part
         let text = [
           ">>> Initialising Hacking",
           ">>> Reading your Files",
@@ -52,10 +57,10 @@
         ];
 
         for (const item of text) {
-          await addItem(item);
+          await addItem(item); // to print the items with delay 
         }
         await randomDelay()
-        clearInterval(t)
+        clearInterval(t) // to stop the last 3 dots of last line
       }
       main()
     </script>
